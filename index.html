@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>BASES</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>BASES</h1>
+    </div>
+    <div class="conversion">
+        <div class="escolha">
+            <select id="box" role="combobox">
+                <option value="decimal">Decimal</option>
+                <option value="binario" disabled="true">Binario</option>
+                <option value="octal" disabled="true">Octal</option>
+                <option value="hexadecimal" disabled="true">Hexadecimal</option>
+            </select>
+            <p>=></p>
+            <select id="box2" role="combobox">
+                <option value="decimal">Decimal</option>
+                <option value="binario">Binario</option>
+                <option value="octal">Octal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+            </select>
+        </div>
+        <div class="entrada">
+            <input type="text" placeholder="Insira um valor"/>
+        </div>
+        <button>CONVERTER</button>
+    </div>
+    <div class="result">
+        <pre><p></p></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
